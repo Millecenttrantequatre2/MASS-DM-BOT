@@ -16,8 +16,8 @@ async def on_ready():
     await start_interaction()
 
 async def start_interaction():
-    server_id = int(colored_input(Fore.LIGHTBLUE_EX, "Enter server ID: "))
-    message_content = colored_input(Fore.LIGHTBLUE_EX, "Enter the message to send to all members: ")
+    server_id = int(colored_input(Fore.LIGHTBLUE_EX, "serveur ID: "))
+    message_content = colored_input(Fore.LIGHTBLUE_EX, "entré le message a envoyer a tout le monde: ")
     await dm_all(server_id, message_content)
 
 async def dm_all(server_id, message_content):
@@ -41,5 +41,5 @@ async def dm_all(server_id, message_content):
         print(Fore.RED + "Guild not found." + Style.RESET_ALL)
 
 if __name__ == "__main__":
-    bot_token = colored_input(Fore.CYAN, "Enter Bot Token: ")
+    bot_token = colored_input(Fore.CYAN, "Entré le token du bot: ")
     bot.run(bot_token)
