@@ -3,10 +3,10 @@ color 3
 echo Bonjour et bienvenue dans le script MassDm fait par 1134.
 set /p answer="Veux-tu continuer? (Y/N)? "
 if /i "%answer%"=="Y" (
-  echo You chose to continue.
+  echo Vous avez choisi de continuer.
   python massdm.py
 ) else if /i "%answer%"=="N" (
-  echo You chose to cancel.
+  echo Vous décidez de partir.
   timeout /t 0.5 /nobreak
   exit
 ) else (
