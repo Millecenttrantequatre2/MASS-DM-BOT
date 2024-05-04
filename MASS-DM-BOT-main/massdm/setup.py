@@ -2,7 +2,7 @@ import os
 import sys
 import platform
 
-print("Installing the python modules required for the MassDm:")
+print("Installions des modules requis pour le MassDm:")
 if sys.platform.startswith("win"):
     "WINDOWS"
     os.system("pip install --upgrade pip install psutil")
