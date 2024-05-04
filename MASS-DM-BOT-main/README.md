@@ -1,5 +1,10 @@
 # MASS-DM-BOT
 simple script pour envoyer des message aux membres d'un serveur discord
-mon compte discord pour plus d'info "millecenttrantrequatre"
-start setup.py first
-start start.bat
+
+
+1 - start setup.py 
+2 - start start.bat
+
+Pour me contacter
+
+discord : millecenttrantrequatre
